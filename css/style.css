@@ -1,0 +1,470 @@
+header {
+  width: 100%;
+  text-align:center;
+}
+
+body {
+  background-color: black;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+main {
+  /*position: absolute;
+  top: 10%;
+  left: 10%;*/
+  /*transform: translate(-50%, -50%);*/
+overflow: auto;
+margin: 55px auto 55px;
+max-width: 1200px;
+text-align: center;
+}
+
+/*3 WELCOME SCREEN */
+
+.welcomeScreen {
+  /*visibility: visible;*/
+  background: white;
+  position: absolute;
+}
+
+.welcomeContainer {
+
+  width: 1100px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-style: solid;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-left-color: blue;
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: blue;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-right-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+}
+
+.largeLogo {
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  /*height: 155px;*/
+  width: 500px;
+}
+
+.instructions {
+margin: 0 auto;
+text-align: center;
+width: 900px;
+font-size: 13px;
+}
+
+h2 {
+text-align: center;
+font-size: 15px;
+margin-top: 1px;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+}
+
+li {
+margin: 10px;
+//gaps between the lines
+}
+
+.welcomeButton {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  font-size: 25px;
+  text-align: center;
+  background: yellow;
+}
+
+/* QUESTIOn BOARD SCREEN*/
+
+.questionBoard {
+  visibility: visible;
+  position: absolute;
+}
+
+.box {
+  visibility: visible;
+  background: white;
+  position: absolute;
+  width: 1100px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  border-width: 20px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: blue;
+}
+
+.left {
+  float: left;
+  width: 55px;
+  padding-top: 40px;
+  background: white;
+  height: 600px;
+}
+
+.logoWelcome {
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  /*height: 155px;*/
+  height: 450px;;
+}
+
+.right {
+  float: right;
+  width: 550px;
+  background: white;
+  height: 600px;
+
+}
+
+.timer {
+  height: 70px;
+  width: 70px;
+  border: 5px solid black;
+  position: relative;
+  border-radius: 50%;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  color: black;
+  margin: 30px auto 30px;
+
+}
+
+.middleBoardButton {
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.question {
+  font-size: 15px;
+  padding: 30px;
+}
+
+.answers button {
+    font-size: 15px;
+    background: white;
+    border: 1px solid;
+    color: blue;
+    padding: 15px 40px;
+    margin: 10px;
+    /*margin: 10px;*/
+}
+
+.daveDiv {
+    font-size: 14px;
+    padding: 20px 0;
+    color: white;
+  }
+
+  .board {
+    margin:
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p span {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+
+.resetButton {
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+  background: grey;
+}
+
+/*TV SET*/
+
+/*.tvSet {
+  position: absolute;
+  width: 1300px;
+  height: 1100px;
+  text-align: center;
+  margin: 0 auto;
+}*/
+
+.tvSet {
+  position: absolute;
+  /*left: 50%;
+  top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+  text-align: center;
+  margin: 0px auto 10px;
+  width: 1100px;
+  /*height: 800px;*/
+  display: none;
+  background-image: url("images/tvSet4.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+#playerOne {
+  float: left;
+  position: relative;
+  left: 400px;
+  margin-top: 450px;
+  background: url("images/farageSitting2.png");
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  height: 155px;
+  width: 100px;
+}
+
+#playerTwo {
+  float: right;
+  right: 400px;
+  position: relative;
+  margin-top: 450px;
+  background: url("images/trumpsitting3.png");
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  height: 170px;
+  width: 100px;
+
+}
+
+.gunge {
+    background: #00f002;
+    width: 500px;
+    height: 130px;
+    position: relative;
+    left: 50%;
+    /*top: 50%;*/
+    transform: translate(-50%, -50%);*/
+    text-align: center;
+    margin-top: 680px;
+}
+
+.black {
+  background: black;
+  width: 1300px;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  /*top: 50%;*/
+  transform: translate(-50%, -50%);*/
+  text-align: center;
+  margin-top: 200px;
+
+}
+
+/*FINISH 1 (player1 yellow)*/
+
+.finish1 {
+  visibility: visible;
+  background: white;
+  position: absolute;
+  width: 1100px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-left-color: blue;
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: blue;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-right-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+
+}
+
+.finish2 {
+  visibility: visible;
+  background: white;
+  position: absolute;
+  width: 1100px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-left-color: blue;
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: blue;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-right-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+}
+
+.yellowh1 {
+  font-size: 30px;
+  color: yellow;
+  margin: 15px;
+}
+
+.blueh1 {
+  font-size: 30px;
+  color: blue;
+  margin: 15px;
+}
+
+.exitButton {
+  margin: 20px 20px 100px 20px;
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  background: red;
+
+}
+
+.gungePic {
+    background-size: contain;
+    background-size: cover;
+    background-size: 100%;
+    /*height: 155px;*/
+    width: 300px;
+}
+
+/*GAME OVER */
+
+.gameOver {
+  visibility: visible;
+  background: white;
+  position: absolute;
+  width: 1100px;
+  height: 800px;
+  text-align: center;
+  margin: 0 auto;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-left-color: blue;
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: blue;
+  border-radius: 5px;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-right-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: white;
+}
+
+/*.leftDave {
+  float: left;
+  width: 320px;
+  padding-top: 30px;
+  background: white;
+}
+
+.rightDave {
+  float: right;
+  width: 400px;
+  background: white;
+  /*margin-right: 400px;*/
+
+
+.gameOverh1 {
+  font-size: 100px;
+  color: red;
+  margin: 10px;
+}
+
+p {
+color: black;
+font-size: 18px;
+}
+
+.daveGameOver {
+    background-size: contain;
+    background-size: cover;
+    background-size: 100%;
+    display: block;
+    /*height: 155px;*/
+    width: 300px;
+    margin-right: 100px;
+}
+
+
+.trumpGif {
+  width: 300px;
+}
+
+@media only screen and (max-width: 400px;) {
+  main {
+    width: auto;
+  }
+  .questionBoard {
+    visibility: hidden
+  }
+  .finish1 {
+    visibility: hidden
+  }
+  .finish2 {
+    visibility: hidden
+  }
+  .gameOver {
+    visibility: hidden
+    }
+  .welcomeScreen {
+    visibility: hidden
+  }
+  .responsiveness {
+    visibility: hidden
+  }
+}
+
+h4 {
+  font-size: 40px;
+}
+
+.responsiveness {
+  visibility: hidden;
+  background: white;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  border-radius: 5px;
+}
