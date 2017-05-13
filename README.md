@@ -18,7 +18,7 @@ As a basic quiz game, the function pops the last question in the array and displ
 
 The screens/divs inter-change depending on the point in the game.
 
-Get Your Own Back was a popular children's TV show that ran from 1991 to 2003 and most popular for it's fidiculous games and obstacle courses and the final round where the contestent's parent/teacher were catapulated into a big pool of gunge.  I wanted to create a game which created nostalga and was memorable.  And although I have found that more people than I thought didn't know or rememember the game, most found 'gunking' Trump or Farage entertaining.
+Get Your Own Back was a popular children's TV show that ran from 1991 to 2003 and most popular for it's ridiculous games and obstacle courses and the final round where the contestant's parent/teacher were catapulted into a big pool of gunge.  I wanted to create a game which created nostalga and was memorable.  And although I have found that more people than I thought didn't know or remember the game, most found 'gunking' Donald Trump or Nigel Farage entertaining.
 
 For an example, see [I'm an inline-style link] https://www.youtube.com/watch?v=CqcsLf0vd8s&spfreload=10
 
@@ -31,10 +31,10 @@ This image shows the set before the divs are added.  below are the divs which ar
 
 ####The build
 
-* HTML 5, CSS and jQuery were used to create this game. 
+* HTML 5, CSS and jQuery were used to create this game.
 * Logo and Tv Set were created in Krita.
 * sounds were taken from youtube clips (see below), converted using https://www.onlinevideoconverter.com/video-converter and cut down using http://mp3cut.net/.
-* Soundmanager was used to load the sounds. 
+* Soundmanager was used to load the sounds.
 * The Google Web Font 'Arvo' has been used to style the game.
 
 ####Installation
