@@ -371,14 +371,14 @@ $(() => {
     if (currentPlayer === 'playerOne') {
       // $chairToMove moves up first and then dunks
       $chairToMove.animate({left: '-=60', bottom: '+=60'}, 500);
-      $chairToMove.animate({left: '+=350', top: '+=350'}, 1000);
+      $chairToMove.animate({left: '+=350', top: '+=350'}, 6000);
       $gunge.animate({left: '+=10'}, 1500);
       $gunge.animate({bottom: '+=60'}, 1000);
 
     } else if (currentPlayer === 'playerTwo') {
       $chairToMove.animate({right: '-=60', bottom: '+=60'}, 500);
       ///SOUND GET YOUR OWN BACK - wait for clip to finsih
-      $chairToMove.animate({left: '-=350', top: '+=350'}, 1000);
+      $chairToMove.animate({left: '-=350', top: '+=350'}, 6000);
       $gunge.animate({left: '+=10'}, 1500);
       $gunge.animate({bottom: '+=60'}, 1000);
     }
