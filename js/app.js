@@ -122,13 +122,8 @@ $(() => {
     },
     {
       question: 'The Princess in the Super Mario franchise hasn\'t always been named Peach (in North America, at least). What was she previously known as?',
-      choices: ['Princess Toadstoll', '7', 'fish'],
+      choices: ['Princess Toadstoll', 'Princess Petal', 'Peach Melba'],
       correctAnswer: 'Princess Toadstoll'
-    },
-    {
-      question: 'Who is the queen?',
-      choices: ['Liz', 'cake', 'donald duck'],
-      correctAnswer: 'Liz'
     },
     {
       question: 'What was S Club 7s first single?',
@@ -144,6 +139,66 @@ $(() => {
       question: 'Tamagotchi" is a Japanese meaning of what two words?',
       choices: ['"Egg and "watch"', '"Egg and "computer"', '"Egg and "monster"'],
       correctAnswer: '"Egg and "watch"'
+    },
+    {
+      question: 'What was the name of the sheep who was the first successfully cloned animal in 1996?',
+      choices: ['William', 'Molly', 'Dolly'],
+      correctAnswer: 'Dolly'
+    },
+    {
+      question: 'What was S Club 7s first single?',
+      choices: ['Bring it all back', 'S Club Party', 'Reach'],
+      correctAnswer: 'Bring it all back'
+    },
+    {
+      question: 'Which of these was a character in The Dandy and not The Beano?',
+      choices: ['Minnie the Minx', 'Ivy the Terrible', 'Beryl the Peril'],
+      correctAnswer: 'Minnie the Minx'
+    },
+    {
+      question: 'Tamagotchi" is a Japanese meaning of what two words?',
+      choices: ['"Egg and "watch"', '"Egg and "computer"', '"Egg and "monster"'],
+      correctAnswer: '"Egg and "watch"'
+    },
+    {
+      question: 'What was S Club 7s first single?',
+      choices: ['Bring it all back', 'S Club Party', 'Reach'],
+      correctAnswer: 'Bring it all back'
+    },
+    {
+      question: 'Which of these was a character in The Dandy and not The Beano?',
+      choices: ['Minnie the Minx', 'Ivy the Terrible', 'Beryl the Peril'],
+      correctAnswer: 'Minnie the Minx'
+    },
+    {
+      question: 'Tamagotchi" is a Japanese meaning of what two words?',
+      choices: ['"Egg and "watch"', '"Egg and "computer"', '"Egg and "monster"'],
+      correctAnswer: '"Egg and "watch"'
+    },
+    {
+      question: 'What was the name of the sheep who was the first successfully cloned animal in 1996?',
+      choices: ['William', 'Molly', 'Dolly'],
+      correctAnswer: 'Dolly'
+    },
+    {
+      question: 'What was S Club 7s first single?',
+      choices: ['Bring it all back', 'S Club Party', 'Reach'],
+      correctAnswer: 'Bring it all back'
+    },
+    {
+      question: 'Which of these was a character in The Dandy and not The Beano?',
+      choices: ['Minnie the Minx', 'Ivy the Terrible', 'Beryl the Peril'],
+      correctAnswer: 'Minnie the Minx'
+    },
+    {
+      question: 'Tamagotchi" is a Japanese meaning of what two words?',
+      choices: ['"Egg and "watch"', '"Egg and "computer"', '"Egg and "monster"'],
+      correctAnswer: '"Egg and "watch"'
+    },
+    {
+      question: 'What was the name of the sheep who was the first successfully cloned animal in 1996?',
+      choices: ['William', 'Molly', 'Dolly'],
+      correctAnswer: 'Dolly'
     },
     {
       question: 'What was the name of the sheep who was the first successfully cloned animal in 1996?',
